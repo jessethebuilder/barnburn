@@ -1,0 +1,185 @@
+/* =============================================================================
+  AUCTION THEME BY MARK FAIL
+   ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(style_childtheme.css);
+
+body {
+    background-color:#efefef;
+	background-image:url(img/bg1.png);
+    font-family:'Open Sans',sans-serif
+}
+/* REMOVE ROUNDED CORNERS */
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+a { color:#222 }
+
+.page-wrapper {
+    margin:0 auto;
+    border:1px solid #ccc;
+    border-width:0 1px;
+    -webkit-box-shadow:0 0 25px 0 #b0b0b0;
+    box-shadow:0 0 25px 0 #b0b0b0;
+    padding-top:0;
+    background:#fff;
+    min-height:800px;
+
+}
+
+
+.header_style4 { padding:0px; }
+
+/*------------------------------------------------------*/
+/* GOOGLE FONT
+/*------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6, #core_menu_wrapper .nav > li > a {
+	font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+#core_logo { margin-bottom:20px; }
+#core_logo .main { color:#5A5A5A; font-family: 'Ubuntu', sans-serif;  font-weight:700;     text-transform: uppercase;    font-size: 35px;    margin-bottom: 10px;    letter-spacing: -2px;  }
+#core_logo .submain { color:#000; margin-top:-10px; color:#999; font-size:14px; }
+
+#core_logo .iconwrap img { max-width:60px; }
+
+@media (max-width: 768px){
+#core_logo .main {  font-size: 35px;}
+#core_logo .submain {  font-size: 12px;}
+}
+
+
+/*------------------------------------------------------*/
+/* CORE ADJUSTMENTS
+/*------------------------------------------------------*/
+
+.featuredsticker {  top: -15px;  left: -15px; }
+.owl-carousel .featuredsticker, .single .featuredsticker {  top: -5px;  left: -5px; }{  top: -5px;  left: -5px; }
+
+/*------------------------------------------------------*/
+/* BUTTONS
+/*------------------------------------------------------*/
+
+.btn-primary {
+  background-image: none;
+  background: #329ad6;
+  border-color: #329ad6;
+}
+
+.btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled] {
+    color:#fff;
+    background-color:#606060
+}
+
+/*------------------------------------------------------*/
+/* TOP NAVIGATION
+/*------------------------------------------------------*/
+
+#core_header_navigation {  border-bottom: 1px solid #efefef; background: #eeeeee; }
+.page-wrapper.container #core_header_navigation { background:#fff !important; }
+#core_header_navigation .nav > li a, .welcometext {
+    color:#999;
+    font-weight:400;
+    font-size:11px
+}
+
+/*------------------------------------------------------*/
+/* MAIN MENU
+/*------------------------------------------------------*/
+
+#core_menu_wrapper {    background:#329ad6; }
+#core_menu_wrapper .navbar-collapse {  border-left: 1px solid white; border-color: rgba(0, 0, 0, 0.1);  }
+#core_menu_wrapper .navbar-nav > li {  border-right: 1px solid white; border-color: rgba(0, 0, 0, 0.1);  }
+#core_menu_wrapper .navbar-nav > li a {    color:#fff;  text-transform:uppercase; }
+#core_menu_wrapper .nav > li:hover, #core_menu_wrapper .nav > .current-menu-item { background:rgba(0,0,0,0.1); }
+
+/*** STYLE 4 */
+.header_style4 .wlt_searchbox input {   border: 1px solid #efefef; }
+
+#wlt_searchbox_form .text-right { display:none; }
+.menu_style4 .button .title:before {
+    content: "\f0e3";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 10px;
+}
+/*------------------------------------------------------*/
+/* PANELS & SIDEBAR
+/*------------------------------------------------------*/
+
+.panel-default>.panel-heading, .home .list-group-item.active, #core_advanced_search_widget_box .panel1 .panel-title {
+
+  text-transform: uppercase;
+
+  color: #A6A6A6;
+  text-shadow: 1px 1px 1px #fff;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  font-size:12px;
+}
+
+/*------------------------------------------------------*/
+/* SEARCH RESULTS
+/*------------------------------------------------------*/
+
+ .search .core_middle_wrap, .archive .core_middle_wrap, .single .core_middle_wrap { padding: 20px; border: 1px solid #ddd;  margin-bottom:20px; }
+._searchresultsblock h4 {     background: #F5F5F5;    color: #909090;  padding: 10px;}
+@media (max-width: 780px){ .single .core_middle_wrap { padding:0px; border:0px; } #auctionbidform { margin-top:20px; margin-bottom:20px; } }
+
+/*------------------------------------------------------*/
+/* FOOTER
+/*------------------------------------------------------*/
+
+footer { margin-bottom:10px; background-color: rgb(51, 51, 51); padding:20px;  }
+#footer_content { padding-bottom:40px; }
+#footer_bottom { background:transparent; border-top:1px solid #5A5A5A; }
+
+/*------------------------------------------------------*/
+/* HOME LAYOUT CHANGES
+/*------------------------------------------------------*/
+
+.jumbostyle1 .jumbotron { margin-bottom:10px; min-height:440px; }
+.jumbostyle1 .btn {   background-color: #329ad6; border:0px; }
+.jumbotron p { max-width:560px; font-size:18px; }
+
+.boxes1 .wrap:hover a  { background: #329ad6; }
+
+.home .list-group { border-radius: 4px 4px 0px 0px; }
+.home .list-group-item {
+    font-family: Open Sans;
+    font-size: 13px;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 600;
+    color: #666666;
+    text-transform: none;
+    letter-spacing: 0px;
+
+    background-color: rgb(255, 255, 255);
+
+    border-style: solid;
+    border-color: #eeeeee;
+
+    padding-top: 17px;
+    padding-right: 20px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+.home .greby {
+   background-color: rgb(247, 247, 247);
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+.home .greby ul { margin-bottom:0px; }
+.home .list-group-item .fa { margin-right:10px; }
+
+.page-wrapper.container .greby  {  background:transparent !important; padding:0px !important;  }
+.page-wrapper.container .greby .container { width:100% !important; margin-top:20px;}
+.page-wrapper.container  #core_inner_wrap {    margin-left: -15px; margin-right:-15px; }

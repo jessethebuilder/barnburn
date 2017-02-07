@@ -1,0 +1,14 @@
+/*--- File by Anysoft ---*/
+/*--- https://anysoft.us ---*/
+
+/*---- Utilities ----*/
+.psudo_hover{
+  color: #337ab7;
+  text-decoration: underline;
+}
+
+.money{
+  color: green !important;
+  font-size: 32px !important;
+
+}

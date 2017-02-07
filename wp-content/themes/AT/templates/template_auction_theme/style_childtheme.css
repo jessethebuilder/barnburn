@@ -1,0 +1,58 @@
+/*------------------------------------------------------*/
+/* SEARCH RESULTS
+/*------------------------------------------------------*/
+.icons .bids { color:#ccc; }
+.icons .bids:before {
+  font-family: FontAwesome;
+  content: "\f0e3";
+  margin-right: 4px;
+}
+
+.wlt_search_results.grid_style .wlt_starrating, .wlt_search_results.grid_style .wlt_shortcode_excerpt, .wlt_search_results.grid_style .wlt_shortcode_category, .wlt_search_results.grid_style .wlt_shortcode_hits { display:none }
+
+.wlt_search_results.grid_style .thumbnail { text-align:left;	padding:10px; }
+.wlt_search_results.grid_style h3 {  margin-top:0px; font-size:16px; margin-top:10px; }
+.wlt_search_results.grid_style .wlt_shortcode_price_current { font-weight: bold; color:#CC0000; font-size:20px; }
+
+.wlt_search_results.grid_style .wrap {    padding:10px;    padding-top:0}
+.wlt_search_results.grid_style img {    max-height:240px;    margin:auto}
+
+.wlt_search_results.list_style h3 { margin-top:10px; }
+.wlt_search_results.list_style .wlt_shortcode_price_current { font-weight: bold; color:#CC0000; font-size:20px; }
+.wlt_search_results.list_style .content .wlt_shortcode_excerpt { width: 51%;  float: left; }
+.wlt_search_results.list_style .hasCountdown { font-size:12px; float:right; }
+
+.ea_finished { text-align:center; }
+.ea_finished .aetxt { font-weight:bold; color:green; font-size:16px; }
+.ea_finished span { font-size:12px; display:block; }
+
+
+/*------------------------------------------------------*/
+/* LISTING PAGE
+/*------------------------------------------------------*/
+
+#auctionbidform .pricebits, #auctionbidform .biddingbox { background:#f9f9f9; color:#999; }
+#auctionbidform .pricebits strong, #auctionbidform .biddingbox strong { display:block; font-size:21px; color: #000; }
+#auctionsearchblock .badge { background:#D0CFCF; }
+
+#auctionbidform  { background: #FFFFFF;  border: 10px solid #EFEFEF;}
+#auctionbidform ul { margin-bottom:0px; }
+.single .timeleftbox { background:#efefef; padding: 10px;}
+.single .priceextra { font-size:10px; }
+
+#auctionsearchblock { margin-top:10px; }
+#auctionsearchblock .nav-pills { margin-top:17px; }
+#auctionsearchblock .nav-pills>li { background:#efefef; padding: 5px; margin-right:5px; margin-top:-5px; }
+#auctionsearchblock .nav-pills>li .red { background:red; }
+@media (max-width: 768px){
+#auctionsearchblock .nav-pills>li { width:100%; }
+#auctionsearchblock .nav-pills>li span { float:right; }
+}
+
+
+/*------------------------------------------------------*/
+/* DEMO EXTRAS
+/*------------------------------------------------------*/
+
+.demomode .jumbostyle1 {  background: url('../../../../../democontent/template_auction_theme/h1.jpg') no-repeat;   }
+.home .wrap1 { margin-left: -15px;    margin-right: -15px; }
